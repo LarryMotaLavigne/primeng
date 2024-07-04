@@ -3,6 +3,7 @@ import card from './card';
 import divider from './divider';
 import checkbox from './checkbox';
 import fieldset from './fieldset';
+import splitter from './splitter';
 
 export default {
     primitive: {
@@ -390,6 +391,7 @@ export default {
         card,
         divider,
         checkbox,
-        fieldset
+        fieldset,
+        splitter
     }
 };
