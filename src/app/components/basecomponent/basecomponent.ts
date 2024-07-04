@@ -111,7 +111,6 @@ export class BaseComponent {
             BaseStyle.loadTheme(this.document, { name: 'global-style', ...this.styleOptions });
             Theme.setLoadedStyleName('common');
         }
-
         // component
         if (!Theme.isStyleNameLoaded(this.componentStyle?.name) && this.componentStyle?.name) {
             const { css } = this.componentStyle.getComponentTheme?.() || {};

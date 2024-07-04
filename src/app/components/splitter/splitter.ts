@@ -180,6 +180,7 @@ export class Splitter extends BaseComponent {
     _componentStyle = splitterStyle;
 
     ngOnInit() {
+        super.ngOnInit();
         this.nested = this.isNested();
     }
 
@@ -197,6 +198,7 @@ export class Splitter extends BaseComponent {
     }
 
     ngAfterViewInit() {
+        super.ngAfterViewInit();
         if (isPlatformBrowser(this.platformId)) {
             if (this.panels && this.panels.length) {
                 let initialized = false;

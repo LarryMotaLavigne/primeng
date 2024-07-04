@@ -4,6 +4,8 @@ import divider from './divider';
 import checkbox from './checkbox';
 import splitter from './splitter';
 import fieldset from './fieldset';
+import stepper from './stepper';
+import scrollpanel from './scrollpanel';
 
 export default {
     primitive: {
@@ -387,6 +389,8 @@ export default {
         divider,
         checkbox,
         splitter,
-        fieldset
+        fieldset,
+        stepper,
+        scrollpanel
     }
 };
