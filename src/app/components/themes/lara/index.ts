@@ -6,6 +6,8 @@ import fieldset from './fieldset';
 import splitter from './splitter';
 import stepper from './stepper';
 import scrollpanel from './scrollpanel';
+import toolbar from './toolbar';
+import inputtext from './inputtext';
 
 export default {
     primitive: {
@@ -396,6 +398,8 @@ export default {
         fieldset,
         splitter,
         stepper,
-        scrollpanel
+        scrollpanel,
+        toolbar,
+        inputtext
     }
 };
